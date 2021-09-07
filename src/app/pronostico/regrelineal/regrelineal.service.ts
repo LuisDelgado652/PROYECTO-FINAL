@@ -10,7 +10,7 @@ export class RegrelinealService {
   upload(file: File, api: string): Observable<any> {
     // Create form data
     const formData = new FormData();
-    api = 'https://mundovirtual.cf/api/' + api;
+    api = 'http://34.67.213.198:3000/api/' + api;
 
     console.log(file);
 

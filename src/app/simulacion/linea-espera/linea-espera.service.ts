@@ -10,7 +10,7 @@ export class LineaEsperaService {
   constructor(private http: HttpClient) { }
   upload(api: string): Observable<any> {
     // Create form data
-    api = 'https://mundovirtual.cf/api/' + api;
+    api = 'http://34.67.213.198:3000/api/' + api;
 
 
     // Store form name as "file" with file data
